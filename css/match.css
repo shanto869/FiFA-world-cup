@@ -1,8 +1,8 @@
 :root {
     --main-font: 'Poppins', sans-serif;
     --sub-font: ;
-    --brand-color: orange;
-    --brand-color2: #161616;
+    --brand-color: #ff5096;
+    --brand-color2: #0A0826;
     --white-color: #FFFFFF;
 }
 
@@ -60,11 +60,7 @@ img {
 }
 
 .header {
-    background-image: linear-gradient(to bottom, rgba(0, 176, 155, 0.65), rgba(150, 201, 61, 0.65));
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    /* background: var(--brand-color2); */
+    background: var(--brand-color2);
     display: flex;  
     align-items: center;
     border-radius: 30px;
@@ -334,6 +330,7 @@ hr {
 
     #blog-section {
         flex-direction: column;
+        align-items: center;
     }
 
     .fixed-menu {
@@ -347,7 +344,7 @@ hr {
     }
 
     .matches {
-        width: 100%;
+        width: 70%;
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -418,7 +415,7 @@ hr {
     }
 
     .container .header-img img {
-        width: 90%;
+        width: 100%;
     }
     /*  ==== header query ends  ==== */
 

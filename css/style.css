@@ -70,7 +70,6 @@ img {
 .container .header-txt {
     width: 50%;
     height: 80%;
-    /* background: thistle; */
     display: flex;
     flex-direction: column;
     justify-content: center;

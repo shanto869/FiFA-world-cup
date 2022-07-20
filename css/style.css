@@ -1,7 +1,7 @@
 :root {
     --main-font: 'Poppins', sans-serif;
     --sub-font: ;
-    --brand-color: #DD0000;
+    --brand-color: #ffa62f;
     --brand-color2: #161616;
     --white-color: #FFFFFF;
 }
@@ -99,11 +99,15 @@ img {
    line-height: 22px;
    color: var(--white-color);
    text-transform: capitalize;
-   padding: 16px 25px;
+   padding: 16px 28px;
    background: var(--brand-color);
    display: inline;
    border-radius: 8px;
    transition: all linear .3s;
+}
+
+.header:hover .header-txt a {
+    transform: scale(1.1);
 }
 
 .container .header-txt a i {
@@ -118,7 +122,6 @@ img {
 .container .header-img {
     width: 50%;
     height: 100%;
-    /* background-color: aqua; */
 }
 
 .container .header-img img {

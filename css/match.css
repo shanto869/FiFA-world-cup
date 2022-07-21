@@ -363,7 +363,7 @@ hr {
     }
 
     .matches {
-        width: 70%;
+        width: 85%;
         grid-template-columns: repeat(1, 1fr);
     }
 

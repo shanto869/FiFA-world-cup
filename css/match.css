@@ -94,11 +94,11 @@ img {
 }
 
 .container .header-txt a {
-   font-size: 20px;
-   line-height: 22px;
+   font-size: 18px;
+   line-height: 18px;
    color: var(--white-color);
    text-transform: capitalize;
-   padding: 16px 25px;
+   padding: 15px 25px;
    background: var(--brand-color);
    display: inline;
    border-radius: 8px;
@@ -285,6 +285,25 @@ hr {
     margin: 0 auto;
 }
 
+.social-icons {
+    padding-bottom: 30px;
+    display: none;
+}
+
+.social-icons a {
+    margin: 0 15px;
+}
+
+.social-icons a i {
+    font-size: 20px;
+    color: var(--white-color);
+    transition: all linear .3s;
+}
+
+.social-icons a:hover i {
+    color: var(--brand-color);
+}
+
 /* ====================
     footer css ends 
  ==================== */
@@ -366,7 +385,7 @@ hr {
     }
 
     #footer  a {
-        font-size: 23px;
+        font-size: 20px;
     }
 
     .social-icons {
@@ -466,7 +485,7 @@ hr {
     }
 
     #footer a {
-        font-size: 20px;
+        font-size: 18px;
     }
  }
      /*  ==== footer query ends  ==== */
